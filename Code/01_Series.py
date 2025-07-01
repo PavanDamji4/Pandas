@@ -16,7 +16,7 @@ print(s2)
 print("-----------------------------------------------------------")
 
 # Directly creating Series
-s3 = pd.Series([10,20,30,40,50],index=['a','b','c','d','e'],dtype=float)
+s3 = pd.Series([10,20,30,40,50],index=['a','b','c','d','e'],dtype=float,name="Series3")
 print(s3)
 
 
