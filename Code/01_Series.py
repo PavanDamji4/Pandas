@@ -26,6 +26,5 @@ print("-----------------------------------------------------------")
 
 s4 = pd.Series([1,2,3,4,5],index=['a','b','c','d','e'],name='Series 1')
 s5 = pd.Series([1,2,3],index=['a','b','c'],name='Series 2')
-
 print(s4+s5)
 
